@@ -44,7 +44,7 @@ const copy = {
     advancedTraining: "Advanced Data Analysis",
     nti: "National Telecommunication Institute (NTI)",
     pythonDate: "Aug — Sep 2025",
-    advancedDate: "2026",
+    advancedDate: "July - August 2026",
     hoursScore: "120 hours • Score 92%",
     pythonSkills:
       "Python fundamentals, OOP, functions, data structures, file handling, error handling, problem solving, and freelancing skills.",
@@ -114,7 +114,7 @@ const copy = {
     advancedTraining: "تحليل البيانات المتقدم",
     nti: "المعهد القومي للاتصالات (NTI)",
     pythonDate: "أغسطس — سبتمبر 2025",
-    advancedDate: "2026",
+    advancedDate: "يوليو - أغسطس 2026",
     hoursScore: "120 ساعة • النتيجة 92%",
     pythonSkills:
       "أساسيات Python، البرمجة كائنية التوجه، الدوال، هياكل البيانات، التعامل مع الملفات والأخطاء، حل المشكلات، ومهارات العمل الحر.",
@@ -158,7 +158,6 @@ const technicalSkills = [
   ["EDA", "Data Analysis"],
   ["σ", "Statistics"],
   ["St", "Streamlit"],
-  ["Jn", "Jupyter Notebook"],
 ];
 
 const softSkills = [
@@ -345,12 +344,12 @@ function SectionHeading({
   title,
 }: {
   label: string;
-  title: string;
+  title?: string;
 }) {
   return (
     <div className="section-heading" data-reveal>
       <span className="eyebrow">{label}</span>
-      <h2>{title}</h2>
+      {title ? <h2>{title}</h2> : null}
     </div>
   );
 }
@@ -558,7 +557,7 @@ export default function Home() {
 
         <section id="skills" className="section">
           <div className="section-number" aria-hidden="true">03</div>
-          <SectionHeading label={t.skillsLabel} title={t.skillsTitle} />
+          <SectionHeading label={t.skillsLabel} />
           <div className="skills-layout">
             <div className="skill-group" data-reveal>
               <h3>{t.technical}</h3>
