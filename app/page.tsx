@@ -337,6 +337,24 @@ const projects: Project[] = [
     },
     technologies: ["Power BI", "Power Query", "DAX", "Sales Analytics", "Dashboard Design"],
   },
+  {
+    title: "Airlines Flights Prediction",
+    category: { en: "Machine Learning • Python", ar: "تعلم الآلة • Python" },
+    video: "/assets/video/airlines-flights.mp4",
+    summary: {
+      en: "A machine learning project built on airline flight data to analyze travel patterns and predict flight-related outcomes through a clear, well-documented Python workflow.",
+      ar: "مشروع تعلم آلة مبني على بيانات رحلات الطيران لتحليل أنماط السفر والتنبؤ بنتائج مرتبطة بالرحلات من خلال خطوات Python واضحة وموثقة.",
+    },
+    problem: {
+      en: "Airline data can include many connected factors, so the goal was to turn raw flight records into useful insights and a predictive model that supports better understanding of flight behavior.",
+      ar: "بيانات الطيران تحتوي على عوامل كثيرة مرتبطة ببعضها، لذلك كان الهدف تحويل سجلات الرحلات الخام إلى رؤى مفيدة ونموذج تنبؤي يساعد على فهم سلوك الرحلات بشكل أوضح.",
+    },
+    contribution: {
+      en: "I used Python to clean and explore the dataset, prepare features, train and evaluate machine learning models, and documented the notebook with explanatory text above each code block to make the workflow easy to follow.",
+      ar: "استخدمت Python لتنظيف واستكشاف البيانات، وتجهيز الخصائص، وتدريب وتقييم نماذج تعلم الآلة، مع توثيق الـ notebook بنص توضيحي فوق كل جزء كود لتسهيل متابعة خطوات المشروع.",
+    },
+    technologies: ["Python", "Pandas", "NumPy", "Scikit-learn", "Machine Learning", "Data Analysis"],
+  },
 ];
 
 function SectionHeading({
