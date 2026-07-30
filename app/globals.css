@@ -257,6 +257,25 @@ video {
   background: currentColor;
 }
 
+.section-heading .eyebrow,
+.contact-copy .eyebrow {
+  min-height: 38px;
+  padding: 8px 14px;
+  color: var(--accent-deep);
+  background: color-mix(in srgb, var(--accent) 12%, var(--surface-solid));
+  border: 1px solid color-mix(in srgb, var(--accent) 32%, transparent);
+  border-radius: 999px;
+  font-size: 13px;
+  letter-spacing: 0.13em;
+  box-shadow: 0 8px 24px rgba(88, 45, 29, 0.06);
+}
+
+.section-heading .eyebrow::before,
+.contact-copy .eyebrow::before {
+  width: 18px;
+  height: 2px;
+}
+
 .hero h1 {
   max-width: 760px;
   margin: 22px 0 14px;
@@ -333,21 +352,6 @@ video {
   border-style: dashed;
   opacity: 0.65;
   animation: slow-spin 36s linear infinite reverse;
-}
-
-.portrait-label {
-  position: absolute;
-  z-index: 3;
-  right: 1%;
-  bottom: 17%;
-  padding: 10px 15px;
-  color: #fff;
-  background: var(--accent);
-  border-radius: 12px;
-  box-shadow: 0 12px 28px rgba(92, 45, 28, 0.2);
-  font-size: 11px;
-  font-weight: 800;
-  letter-spacing: 0.15em;
 }
 
 .scroll-cue {

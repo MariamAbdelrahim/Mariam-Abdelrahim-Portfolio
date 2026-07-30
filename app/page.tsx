@@ -513,7 +513,6 @@ export default function Home() {
                 alt="Mariam Abdelrahim Rapee"
               />
             </div>
-            <span className="portrait-label">BIS • DATA</span>
           </div>
           <button className="scroll-cue" onClick={() => scrollTo("about")}>
             <span>{t.scroll}</span>
