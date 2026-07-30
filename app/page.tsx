@@ -28,7 +28,7 @@ const copy = {
     aboutTwo:
       "What sets me apart is my ability to connect technical analysis with real business needs. My BIS background helps me understand both data and the business context behind it, allowing me to transform complex information into practical insights and easy-to-understand solutions that support smarter decisions.",
     educationLabel: "Education",
-    educationTitle: "A business foundation, powered by data.",
+    educationTitle: "Studying Business Information Systems with a focus on data and technology.",
     degree: "Bachelor’s Degree in Business Information Systems (BIS)",
     university: "Suez University",
     years: "2024 — 2028",
@@ -98,7 +98,7 @@ const copy = {
     aboutTwo:
       "ما يميزني هو قدرتي على الربط بين التحليل التقني واحتياجات الأعمال الحقيقية. يساعدني تخصصي في فهم البيانات والسياق التجاري المحيط بها، مما يمكّنني من تحويل المعلومات المعقدة إلى رؤى عملية وحلول سهلة الفهم تدعم اتخاذ قرارات أكثر ذكاءً.",
     educationLabel: "التعليم",
-    educationTitle: "أساس قوي في الأعمال، مدعوم بالبيانات.",
+    educationTitle: "أدرس نظم معلومات الأعمال مع التركيز على البيانات والتكنولوجيا.",
     degree: "بكالوريوس نظم معلومات الأعمال (BIS)",
     university: "جامعة السويس",
     years: "2024 — 2028",
