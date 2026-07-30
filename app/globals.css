@@ -476,6 +476,10 @@ video {
   margin-bottom: 64px;
 }
 
+.section-heading.compact-heading {
+  margin-bottom: 34px;
+}
+
 .section-heading h2,
 .contact-copy h2 {
   margin: 18px 0 0;

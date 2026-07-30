@@ -538,7 +538,9 @@ export default function Home() {
 
         <section id="education" className="section alt-section">
           <div className="section-number" aria-hidden="true">02</div>
-          <SectionHeading label={t.educationLabel} title={t.educationTitle} />
+          <div className="section-heading compact-heading" data-reveal>
+            <span className="eyebrow">{t.educationLabel}</span>
+          </div>
           <article className="education-card" data-reveal>
             <div className="education-mark">SU</div>
             <div className="education-copy">
